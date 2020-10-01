@@ -65,7 +65,7 @@ SetTitleMatchMode 2
 
 Rewind:
 
-  RewindSiteToKeyMappings := { "YouTube": "j", "Udemy": "{Left}", "Vimeo": "{Left}", "Patreon": "{Left}", "Jazzedge": "{Left}", "HomeSchoolPiano": "{Left}", "Learn Piano Blues": "{Left}" }
+  RewindSiteToKeyMappings := { "YouTube": "j", "Udemy": "{Left}", "Vimeo": "{Left}", "Patreon": "{Left}", "Jazzedge": "{Left}", "HomeSchoolPiano": "{Left}", "Learn Piano Blues": "{Left}", "Summer Piano Jam": "{Left}" }
 
   tabCount := 0
   Loop {
@@ -82,7 +82,7 @@ Rewind:
     }
     ControlSend, , ^{PgUp} , Google Chrome
     tabCount := tabCount + 1
-    sleep 150
+    Sleep 150
     if (tabCount = 10) {
       break
     }
@@ -92,7 +92,7 @@ Rewind:
   }
   Loop, %tabCount% {
     ControlSend, , ^{PgDn} , Google Chrome
-    sleep 150
+    Sleep 150
   }
   return
 
