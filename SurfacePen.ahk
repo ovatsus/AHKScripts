@@ -65,7 +65,7 @@ SetTitleMatchMode 2
 
 Rewind:
 
-  RewindSiteToKeyMappings := { "YouTube": "j", "Udemy": "{Left}", "Vimeo": "{Left}", "Patreon": "{Left}", "Jazzedge": "{Left}", "HomeSchoolPiano": "{Left}", "Learn Piano Blues": "{Left}", "Summer Piano Jam": "{Left}" }
+  RewindSiteToKeyMappings := { "YouTube": "j", "Udemy": "{Left}", "Vimeo": "{Left}", "Patreon": "{Left}", "Jazzedge": "{Left}", "HomeSchoolPiano": "{Left}", "Learn Piano Blues": "{Left}", "Summer Piano Jam": "{Left}", "Jazz Christmas Music": "{Left}" }
 
   tabCount := 0
   Loop {
